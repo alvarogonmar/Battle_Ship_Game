@@ -1,0 +1,1 @@
+#pragma once // Asegurar que el archivo solo se incluya una vez.
