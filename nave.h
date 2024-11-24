@@ -3,12 +3,12 @@
 
 #pragma once // Asegurar que el archivo solo se incluya una vez.
 
-class Barco
+class Nave
 {
 public:
     int tamanio; // tamanio del barco
     int impacto; // contar los impactos recibidos
 
-    Barco(int tamanio); // constructor del tamanio del barco
-    bool hundido();     // Verificar si el barco esta hundido
+    Nave(int tamanio); // constructor del tamanio del barco
+    bool hundido();    // Verificar si el barco esta hundido
 };
